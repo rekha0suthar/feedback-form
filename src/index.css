@@ -11,3 +11,126 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.FeedbackForm {
+  max-width: 1100px;
+  margin: 50px auto;
+}
+
+.rating {
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.rating .rating-btn {
+  border-radius: 50%;
+  border: 1px solid #323232;
+  padding: 10px 15px;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 20px 10px;
+  font-weight: bold;
+}
+
+.selected {
+  background-color: coral;
+  border-radius: 50%;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin: 20px 10px;
+}
+
+form {
+  background-color: #eee;
+  padding: 10px;
+}
+
+.input-box {
+  width: 100%;
+  margin: 10px auto;
+  display: flex;
+}
+
+.input-box input {
+  border-radius: 5px;
+  padding: 15px;
+  border: 1px solid #eee;
+  width: 100%;
+  font-size: 16px;
+  outline: none;
+}
+
+.input-box button {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.review-list {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0px 0px 4px #a3a2a2;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li div {
+  display: block;
+  align-items: center;
+  position: relative;
+}
+
+li div .rating-number {
+  background-color: coral;
+  border-radius: 50%;
+  padding: 10px 15px;
+  width: 10px;
+  position: absolute;
+  top: -40px;
+  left: -32px;
+  text-align: center;
+}
+
+li div .review {
+  margin-left: 20px;
+}
+
+.count {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar {
+  margin-top: 0;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+li button {
+  border: none;
+  background: transparent;
+  color: red;
+  font-size: 18px;
+  cursor: pointer;
+}
